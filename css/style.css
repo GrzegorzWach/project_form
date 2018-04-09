@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: url(../images/top-logo.png) no-repeat center top, url(../images/bottom-logo.png) no-repeat bottom right, url(../images/background.jpg) no-repeat left top;
+    background-size: 50%, auto, cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.lead {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form1 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    width: 30%;
+    /* height: 25%; */
+
+}
+input {
+    background-color: white;
+    border: 1px solid rgb(198, 198, 198);
+    padding: 12px;
+    margin: 0 0 20px 0;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+}
+
+button {
+    width: 100%;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(159, 213, 58);
+    border: 1px solid rgb(59, 154, 0);
+    font-weight: 400;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+#user_checkbox {
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(175, 175, 175);
+    border: 1px solid rgb(198, 198, 198);
+    width: 25px; /* dlaczego przy tym ustawieniu checkbox zmienia położenie??  */
+    height: 25px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+
+/* background-color: rgba(117,29,38,0.1); */
