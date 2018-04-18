@@ -214,4 +214,8 @@ button.red {
 .left {
     padding-left: 40px;
 }
-/* background-color: rgba(117,29,38,0.1); */
+
+
+label {
+    display: none;
+}
